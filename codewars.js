@@ -158,3 +158,9 @@ function hero(bullets, dragons){
           }
         } return sum;
       }
+
+      //Convert a String to a Number!
+      var stringToNumber = function(str){
+let num = Number(str); // становится числом 123
+return num;
+}
