@@ -25,3 +25,14 @@ function check(a, x) {
   }
   return false;
 }
+
+
+//Will there be enough space
+
+function enough(cap, on, wait) {
+  if (wait <= cap - on) {
+    return 0;
+  } else {
+    return wait - cap + on;
+  }
+}
