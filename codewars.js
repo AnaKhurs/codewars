@@ -164,3 +164,16 @@ function hero(bullets, dragons){
 let num = Number(str); // становится числом 123
 return num;
 }
+
+//Basic Mathematical Operations
+function basicOp(operation, value1, value2) {
+  if (operation === "+"){
+    return value1 + value2;
+  } else if (operation === "-"){
+    return value1 - value2;
+  } else if (operation === "*"){
+    return value1 * value2;
+  }else if (operation === "/"){
+    return value1 / value2;
+  }
+}
