@@ -133,3 +133,9 @@ function hero(bullets, dragons){
         s += str[i];
       } return s;
     }
+
+    //Convert a Number to a String!
+    function numberToString(num) {
+      var n = num.toString();
+        return n;
+      }
