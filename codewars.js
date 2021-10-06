@@ -98,3 +98,9 @@ function hero(bullets, dragons){
         return "Odd";
       }
     }
+
+
+    // Opposite number
+    function opposite(number) {
+      return number * -1;
+    }
