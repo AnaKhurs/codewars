@@ -177,3 +177,10 @@ function basicOp(operation, value1, value2) {
     return value1 / value2;
   }
 }
+
+// Function 1 - hello world
+function showMessage() {
+  let message = "Привет, я JavaScript!"; // локальная переменная
+
+  alert( message );
+}
