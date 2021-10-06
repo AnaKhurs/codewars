@@ -139,3 +139,12 @@ function hero(bullets, dragons){
       var n = num.toString();
         return n;
       }
+
+      //Summation
+      var summation = function (num) {
+        let sum = 0;
+      while (num > 0) {
+        sum += num;
+        num--;
+      } return sum;
+      }
