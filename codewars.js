@@ -36,3 +36,9 @@ function enough(cap, on, wait) {
     return wait - cap + on;
   }
 }
+
+//Beginner Series #4 Cockroach
+
+function cockroachSpeed(s) {
+  return Math.floor(s/ 0.036); 
+}
