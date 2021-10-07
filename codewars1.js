@@ -41,3 +41,14 @@ function sum (numbers) {
     sum += numbers[i];
   } return sum;
 };
+
+//Are You Playing Banjo?
+function areYouPlayingBanjo(name) {
+  let r;
+  if (name[0] === "r" || name[0] === "R" ) {
+    r = name + " plays banjo";
+  } else {
+    r = name + " does not play banjo";
+  }
+  return r;
+}
