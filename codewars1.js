@@ -14,3 +14,10 @@ function doubleInteger(i) {
   
   return i*2;
 }
+
+
+//Invert values
+function invert(array) {
+  let arr = array.map(item => -item);
+    return arr;
+ }
