@@ -14,3 +14,15 @@ function mouthSize(animal) {
   animal = animal.toLowerCase();
   return animal == "alligator" ? "small" : "wide";
 }
+
+//The Feast of Many Beasts
+function feast(beast, dish) {
+  let i = beast.length - 1;
+    let n = dish.length - 1;
+    
+   if (beast[0] === dish[0] && beast[i] === dish[n]) {
+     return true;
+   } else {
+     return false;
+   }
+  }
