@@ -52,3 +52,13 @@ function areYouPlayingBanjo(name) {
   }
   return r;
 }
+
+//Will you make it?
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  
+  if (fuelLeft * mpg >= distanceToPump) {
+    return true;
+  } else {
+    return false;
+  }
+};
