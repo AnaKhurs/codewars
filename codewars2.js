@@ -8,3 +8,9 @@ function simpleMultiplication(number) {
 var a = "code";
 var b = "wa.rs";
 var name = a + b;
+
+//The Wide-Mouthed frog!
+function mouthSize(animal) {
+  animal = animal.toLowerCase();
+  return animal == "alligator" ? "small" : "wide";
+}
