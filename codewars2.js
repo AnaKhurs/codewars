@@ -31,3 +31,8 @@ function feast(beast, dish) {
   function take(arr, n) {
     return( arr.slice(0, n) );
     }
+
+    //Grasshopper - Debug sayHello
+    function sayHello(name) {
+      return 'Hello, ' + name;
+    }
