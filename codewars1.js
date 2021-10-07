@@ -21,3 +21,15 @@ function invert(array) {
   let arr = array.map(item => -item);
     return arr;
  }
+
+ //Fake Binary
+ function fakeBin(x){
+  let y = '';
+for (let i = 0; i < x.length; i++){
+  if (x[i] < 5){
+    y += 0;
+  } else if (x[i] >= 5){
+    y += 1;
+  } 
+} return y;
+}
