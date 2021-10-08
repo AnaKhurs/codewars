@@ -98,3 +98,12 @@ function feast(beast, dish) {
         return false;
       }
     }
+
+    //Grasshopper - Personalized Message
+    function greet (name, owner) {
+      if (name === owner ){
+        return 'Hello boss';
+      } else if (name !== owner ){
+        return 'Hello guest';
+      }
+     }
