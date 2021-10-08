@@ -107,3 +107,11 @@ function feast(beast, dish) {
         return 'Hello guest';
       }
      }
+
+     // Do you speak "English"?
+     function spEng(sentence){
+
+      const reg = /english/i;
+      
+      return reg.test(sentence);
+    }
