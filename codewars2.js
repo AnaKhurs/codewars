@@ -41,3 +41,12 @@ function feast(beast, dish) {
     function booleanToString(b){
       return String(b);
       }
+
+
+      //What is between?
+      function between(a, b) {
+        var list = [];
+      for (var i = a; i <= b; i++) {
+          list.push(i);
+      } return list;
+      }
