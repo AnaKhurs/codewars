@@ -115,3 +115,12 @@ function feast(beast, dish) {
       
       return reg.test(sentence);
     }
+
+//Sum The Strings
+    function sumStr(a,b) {
+      a = a === '' ? 0 : Number(a);
+      b = b === '' ? 0 : Number(b);
+      
+      let c = a + b;
+      return String(c);
+    }
