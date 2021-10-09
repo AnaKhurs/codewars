@@ -173,3 +173,12 @@ function feast(beast, dish) {
           return 'You were born this very year!';
         }
     }
+
+    // Hello, Name or World!
+    function hello(name) {
+      if (typeof name === "undefined" || name.length === 0) {
+        return `Hello, World!`;
+      } else {
+        return `Hello, ${name[0].toUpperCase()}${name.substring(1,).toLowerCase()}!`;
+      }
+    }
