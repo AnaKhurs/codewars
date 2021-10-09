@@ -145,3 +145,13 @@ function feast(beast, dish) {
       } 
      }
     
+
+     //Define a card suit
+     function defineSuit(card) {
+      switch(card[card.length - 1]){
+         case '♣': return 'clubs';
+         case '♦': return 'diamonds';
+         case '♥': return 'hearts';
+         default: return 'spades';
+      }
+   }
