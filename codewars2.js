@@ -155,3 +155,21 @@ function feast(beast, dish) {
          default: return 'spades';
       }
    }
+
+   //How old will I be in 2099?
+  function  calculateAge(birthDate, otherDate) {
+
+    var age = otherDate - birthDate;
+    
+      if(age === 1) {
+      return 'You are ' + age + ' year old.';
+        } else if(age > 1) {
+          return 'You are ' + age + ' years old.';
+        } else if (age < -1) {
+          return 'You will be born in ' + (-age) + ' years.';
+        } else if (age === -1) {
+          return 'You will be born in ' + (-age) + ' year.';
+        } else {
+          return 'You were born this very year!';
+        }
+    }
