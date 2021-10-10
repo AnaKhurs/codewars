@@ -1,4 +1,4 @@
-// A Needle in the Haystack
+// 21 A Needle in the Haystack
 function findNeedle(haystack) {
   let f = "found the needle at position ";
   let n = 0;
@@ -9,20 +9,20 @@ function findNeedle(haystack) {
   } return f + n;
 }
 
-//You Can't Code Under Pressure #1
+//22 You Can't Code Under Pressure #1
 function doubleInteger(i) {
   
   return i*2;
 }
 
 
-//Invert values
+//23 Invert values
 function invert(array) {
   let arr = array.map(item => -item);
     return arr;
  }
 
- //Fake Binary
+ //24 Fake Binary
  function fakeBin(x){
   let y = '';
 for (let i = 0; i < x.length; i++){
@@ -34,7 +34,7 @@ for (let i = 0; i < x.length; i++){
 } return y;
 }
 
-// Sum Numbers
+// 25 Sum Numbers
 function sum (numbers) {
   let sum = 0;
   for (let i = 0; i < numbers.length; i++) {
@@ -42,7 +42,7 @@ function sum (numbers) {
   } return sum;
 };
 
-//Are You Playing Banjo?
+//26 Are You Playing Banjo?
 function areYouPlayingBanjo(name) {
   let r;
   if (name[0] === "r" || name[0] === "R" ) {
@@ -53,7 +53,7 @@ function areYouPlayingBanjo(name) {
   return r;
 }
 
-//Will you make it?
+//27 Will you make it?
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   
   if (fuelLeft * mpg >= distanceToPump) {
@@ -63,7 +63,7 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   }
 };
 
-// How good are you really?
+//28  How good are you really?
 function betterThanAverage(classPoints, yourPoints) {
   // Your code here
   const average = classPoints.reduce((x, y) => x + y, 0) / classPoints.length;

@@ -1,4 +1,4 @@
-// The first century spans from the year 1 up to and including the year 100, The second - from the year 101 up to and including the year 200, etc.
+// 1 The first century spans from the year 1 up to and including the year 100, The second - from the year 101 up to and including the year 200, etc.
 
 function century(year) {
   let centuryCount = 0;
@@ -10,7 +10,7 @@ function century(year) {
 }
 
 
-/*You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+/*2_You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
 
 Array can contain numbers or strings. X can be either.
 
@@ -27,7 +27,7 @@ function check(a, x) {
 }
 
 
-//Will there be enough space
+//3_Will there be enough space
 
 function enough(cap, on, wait) {
   if (wait <= cap - on) {
@@ -37,14 +37,14 @@ function enough(cap, on, wait) {
   }
 }
 
-//Beginner Series #4 Cockroach
+//4_Beginner Series #4 Cockroach
 
 function cockroachSpeed(s) {
   return Math.floor(s/ 0.036); 
 }
 
 
-//Is he gonna survive?
+//5_Is he gonna survive?
 function hero(bullets, dragons){
   if(bullets >= dragons*2){
     return true;
@@ -53,7 +53,7 @@ function hero(bullets, dragons){
   }
   }
 
-  //Complete the square sum function so that it squares each number passed into it and then sums the results together.
+  //6_Complete the square sum function so that it squares each number passed into it and then sums the results together.
 
   function squareSum(numbers){
     let sum = 0;
@@ -63,7 +63,7 @@ function hero(bullets, dragons){
      return sum;
   }
 
-  //Opposites Attract
+  //7_Opposites Attract
   function lovefunc(flower1, flower2){
     if (flower1 % 2 === 0 && flower2 % 2 !== 0) {
       return true;
@@ -74,7 +74,7 @@ function hero(bullets, dragons){
     }
   }
 
-  // When provided with a number between 0-9, return it in words.
+  //8_ When provided with a number between 0-9, return it in words.
 
   function switchItUp(number){
     switch(number){
@@ -90,7 +90,7 @@ function hero(bullets, dragons){
     }
     }
 
-    //Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+    //9_Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
     function even_or_odd(number) {
       if (number % 2 === 0) {
         return "Even";
@@ -100,12 +100,12 @@ function hero(bullets, dragons){
     }
 
 
-    // Opposite number
+    //10_ Opposite number
     function opposite(number) {
       return number * -1;
     }
 
-    //Sum of positive
+    //11_Sum of positive
     function positiveSum(arr) {
       let sum = 0;
       for (let i = 0; i < arr.length; i++){
@@ -116,7 +116,7 @@ function hero(bullets, dragons){
     }
     
 
-    // Convert boolean values to strings 'Yes' or 'No'.
+    //12_ Convert boolean values to strings 'Yes' or 'No'.
     function boolToWord( bool ){
       if (bool == true){
         return "Yes";
@@ -126,7 +126,7 @@ function hero(bullets, dragons){
     }
 
 
-    //Reversed Strings
+    //13_Reversed Strings
     function solution(str){
       let s = ""
       for (let i = str.length - 1; i >= 0; i--){
@@ -134,13 +134,13 @@ function hero(bullets, dragons){
       } return s;
     }
 
-    //Convert a Number to a String!
+    //14_Convert a Number to a String!
     function numberToString(num) {
       var n = num.toString();
         return n;
       }
 
-      //Summation
+      //15_Summation
       var summation = function (num) {
         let sum = 0;
       while (num > 0) {
@@ -149,7 +149,7 @@ function hero(bullets, dragons){
       } return sum;
       }
 
-      //Counting sheep
+      //16Counting sheep
       function countSheeps(arrayOfSheep) {
         let sum = 0;
         for (let i = 0; i < arrayOfSheep.length; i++){
@@ -159,13 +159,13 @@ function hero(bullets, dragons){
         } return sum;
       }
 
-      //Convert a String to a Number!
+      //17Convert a String to a Number!
       var stringToNumber = function(str){
 let num = Number(str); // становится числом 123
 return num;
 }
 
-//Basic Mathematical Operations
+//18Basic Mathematical Operations
 function basicOp(operation, value1, value2) {
   if (operation === "+"){
     return value1 + value2;
@@ -178,14 +178,14 @@ function basicOp(operation, value1, value2) {
   }
 }
 
-// Function 1 - hello world
+//19 Function 1 - hello world
 function showMessage() {
   let message = "Привет, я JavaScript!"; // локальная переменная
 
   alert( message );
 }
 
-//Jenny's secret message
+//20Jenny's secret message
 function greet(name){
   if(name === "Johnny"){
     return "Hello, my love!";

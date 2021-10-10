@@ -1,21 +1,21 @@
-// Simple multiplication
+//29 Simple multiplication
 function simpleMultiplication(number) {
   return r = number % 2 === 0 ? number * 8 : number * 9;
 }
 
 
-// Basic variable assignment
+//30 Basic variable assignment
 var a = "code";
 var b = "wa.rs";
 var name = a + b;
 
-//The Wide-Mouthed frog!
+//31The Wide-Mouthed frog!
 function mouthSize(animal) {
   animal = animal.toLowerCase();
   return animal == "alligator" ? "small" : "wide";
 }
 
-//The Feast of Many Beasts
+//32The Feast of Many Beasts
 function feast(beast, dish) {
   let i = beast.length - 1;
     let n = dish.length - 1;
@@ -27,23 +27,23 @@ function feast(beast, dish) {
    }
   }
 
-  //Enumerable Magic #25 - Take the First N Elements
+  //33Enumerable Magic #25 - Take the First N Elements
   function take(arr, n) {
     return( arr.slice(0, n) );
     }
 
-    //Grasshopper - Debug sayHello
+    //34Grasshopper - Debug sayHello
     function sayHello(name) {
       return 'Hello, ' + name;
     }
 
-    // Convert a Boolean to a String
+    // 35Convert a Boolean to a String
     function booleanToString(b){
       return String(b);
       }
 
 
-      //What is between?
+      //36What is between?
       function between(a, b) {
         var list = [];
       for (var i = a; i <= b; i++) {
@@ -51,7 +51,7 @@ function feast(beast, dish) {
       } return list;
       }
 
-      //Fundamentals: Return
+      //37Fundamentals: Return
       function add(a,b){
         return a + b;
     }
@@ -76,7 +76,7 @@ function feast(beast, dish) {
         return a - b;
     }
 
-    //Quarter of the year
+    //38Quarter of the year
     const quarterOf = (month) => {
       if (month <= 3 && month >= 1 ){
         return 1;
@@ -90,7 +90,7 @@ function feast(beast, dish) {
       
     }
 
-    //Grasshopper - If/else syntax debug
+    //39Grasshopper - If/else syntax debug
     function checkAlive (health) {
       if (health > 0) {
         return true;
@@ -99,7 +99,7 @@ function feast(beast, dish) {
       }
     }
 
-    //Grasshopper - Personalized Message
+    //40Grasshopper - Personalized Message
     function greet (name, owner) {
       if (name === owner ){
         return 'Hello boss';
@@ -108,7 +108,7 @@ function feast(beast, dish) {
       }
      }
 
-     // Do you speak "English"?
+     //41 Do you speak "English"?
      function spEng(sentence){
 
       const reg = /english/i;
@@ -116,7 +116,7 @@ function feast(beast, dish) {
       return reg.test(sentence);
     }
 
-//Sum The Strings
+//42Sum The Strings
     function sumStr(a,b) {
       a = a === '' ? 0 : Number(a);
       b = b === '' ? 0 : Number(b);
@@ -125,7 +125,7 @@ function feast(beast, dish) {
       return String(c);
     }
 
-    //Beginner Series #1 School Paperwork
+    //43Beginner Series #1 School Paperwork
     function paperwork(n, m) {
       if (n < 0 || m < 0) {
         return 0
@@ -134,7 +134,7 @@ function feast(beast, dish) {
       }
     }
 
-    //What's the real floor?
+    //44What's the real floor?
     function getRealFloor(n) {
       if (n <= 0){
         return n;
@@ -146,7 +146,7 @@ function feast(beast, dish) {
      }
     
 
-     //Define a card suit
+     //45Define a card suit
      function defineSuit(card) {
       switch(card[card.length - 1]){
          case '♣': return 'clubs';
@@ -156,7 +156,7 @@ function feast(beast, dish) {
       }
    }
 
-   //How old will I be in 2099?
+   //46How old will I be in 2099?
   function  calculateAge(birthDate, otherDate) {
 
     var age = otherDate - birthDate;
@@ -174,7 +174,7 @@ function feast(beast, dish) {
         }
     }
 
-    // Hello, Name or World!
+    //47 Hello, Name or World!
     function hello(name) {
       if (typeof name === "undefined" || name.length === 0) {
         return `Hello, World!`;
