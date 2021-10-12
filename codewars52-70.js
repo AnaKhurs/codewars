@@ -11,3 +11,17 @@ function updateLight(current) {
   }
 
 }
+
+//53 Is this my tail?
+function correctTail(body, tail) {
+  
+  let sub = body.substr(-1);
+  
+  if (sub == tail){ 
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+  
