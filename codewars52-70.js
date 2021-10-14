@@ -34,3 +34,8 @@ const areaOrPerimeter = function(l , w) {
     return 2*(l+w)
   }
 };
+
+//55 Hex to Decimal
+function hexToDec(hexString){
+  return parseInt(hexString, 16); 
+  }
