@@ -39,3 +39,11 @@ const areaOrPerimeter = function(l , w) {
 function hexToDec(hexString){
   return parseInt(hexString, 16); 
   }
+
+//56 Double Char
+function doubleChar(str) {
+  let r = "";
+ for(let i=0; i < str.length; i++ ){
+   r += str[i]+str[i];
+ } return r;
+}
