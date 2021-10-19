@@ -47,3 +47,8 @@ function doubleChar(str) {
    r += str[i]+str[i];
  } return r;
 }
+
+//57 Grasshopper - Messi goals function
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
