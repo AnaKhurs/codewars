@@ -59,3 +59,10 @@ function stringToArray(string){
 	return string.split(' ')
 
 }
+
+//59 Filter out the geese
+function gooseFilter (birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+
+  return birds.filter((b) => !geese.includes(b))
+};
