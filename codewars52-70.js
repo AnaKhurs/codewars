@@ -66,3 +66,8 @@ function gooseFilter (birds) {
 
   return birds.filter((b) => !geese.includes(b))
 };
+
+//60 Multiple of index
+function multipleOfIndex(array) {
+	return array.filter((el, idx) => el % idx === 0);
+}
