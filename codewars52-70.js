@@ -52,3 +52,10 @@ function doubleChar(str) {
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
+
+//58 Convert a string to an array
+function stringToArray(string){
+
+	return string.split(' ')
+
+}
