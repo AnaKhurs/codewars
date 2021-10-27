@@ -77,3 +77,9 @@ function multipleOfIndex(array) {
 function getEvenNumbers(numbersArray){
   return numbersArray.filter(i => i%2 === 0)
   }
+
+  //62 Remove Empty Items of Array
+  function clean(arr) {
+    return arr.filter(i => i || undefined || null || NaN || false || 0 || [])
+    }
+    
