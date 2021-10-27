@@ -71,3 +71,9 @@ function gooseFilter (birds) {
 function multipleOfIndex(array) {
 	return array.filter((el, idx) => el % idx === 0);
 }
+
+
+//61 JavaScript Array Filter
+function getEvenNumbers(numbersArray){
+  return numbersArray.filter(i => i%2 === 0)
+  }
