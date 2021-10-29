@@ -82,4 +82,10 @@ function getEvenNumbers(numbersArray){
   function clean(arr) {
     return arr.filter(i => i || undefined || null || NaN || false || 0 || [])
     }
+
+
+  //63 Testing 1-2-3
+  let number=function(array){
+    return array.map((element, index) => `${index + 1}: ${element}`);
+  }  
     
