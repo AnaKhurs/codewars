@@ -89,3 +89,12 @@ function getEvenNumbers(numbersArray){
     return array.map((element, index) => `${index + 1}: ${element}`);
   }  
     
+
+  // 64 Array plus array
+  function arrayPlusArray(arr1, arr2) {
+
+    let result1 = arr1.reduce((sum, current) => sum + current, 0);
+    let result2 = arr2.reduce((sum, current) => sum + current, 0);
+    
+      return result1 + result2; 
+    }
