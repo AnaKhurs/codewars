@@ -105,3 +105,8 @@ function arrayPlusArray(arr1, arr2) {
 sortme = function (names) {
   return names.sort()
 }
+
+//66 Return Negative
+function makeNegative(num) {
+  return num > 0 ? -num : num
+}
