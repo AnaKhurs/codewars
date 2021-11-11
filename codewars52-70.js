@@ -115,3 +115,8 @@ function makeNegative(num) {
 function sumMix(x){
   return x.reduce((acc, ell) => acc + Number(ell), 0)
   }
+
+  //68 No oddities here
+  function noOdds( values ){
+    return values.filter(i => i%2 === 0)
+  }
