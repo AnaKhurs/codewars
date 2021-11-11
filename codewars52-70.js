@@ -110,3 +110,8 @@ sortme = function (names) {
 function makeNegative(num) {
   return num > 0 ? -num : num
 }
+
+//67 Sum Mixed Array
+function sumMix(x){
+  return x.reduce((acc, ell) => acc + Number(ell), 0)
+  }
