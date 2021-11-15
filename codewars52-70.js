@@ -136,3 +136,9 @@ function sumMix(x){
        }
        return arr;
      }
+
+  //70 Even numbers in an array
+  function evenNumbers(array, number) {
+    let arr = array.filter(a => a%2 === 0)
+    return  arr.slice(-number) 
+    }   
