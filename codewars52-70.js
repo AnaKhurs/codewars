@@ -120,3 +120,19 @@ function sumMix(x){
   function noOdds( values ){
     return values.filter(i => i%2 === 0)
   }
+
+  //69 Moving Zeros To The End
+  var moveZeros = function (arr) {
+    var len = arr.length;
+     
+       for (var i = 0; i < len ; i++) {
+         for(var j = 0 ; j < len - i - 1; j++){ // this was missing
+         if (arr[j] === 0) {
+           var temp = arr[j];
+           arr[j] = arr[j+1];
+           arr[j + 1] = temp;
+         }
+        }
+       }
+       return arr;
+     }
