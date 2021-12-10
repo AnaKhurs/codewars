@@ -142,3 +142,5 @@ function sumMix(x){
     let arr = array.filter(a => a%2 === 0)
     return  arr.slice(-number) 
     }   
+
+    //71
