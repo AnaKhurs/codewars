@@ -6,3 +6,11 @@ function isTriangle(a,b,c){
 function squareDigits(num){
     return +num.toString().split('').map(i => i*i).join('')
 }
+
+//73 Reverse words
+function reverseWords(str) {
+    str = str.split(' ');
+    str = str.map(x => x.split('').reverse());
+    str = str.map(x => x.join(''));
+    return str.join(' ');
+}
