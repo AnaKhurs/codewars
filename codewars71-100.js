@@ -14,3 +14,16 @@ function reverseWords(str) {
     str = str.map(x => x.join(''));
     return str.join(' ');
 }
+
+//74 Count of positives / sum of negatives
+function countPositivesSumNegatives(input) {
+    if(input === null) {
+        return []
+    }
+    if(input.length === 0) {
+        return []
+    }
+    const res1 = input.filter(item => item > 0).length
+    const res2 =  input.filter(item => item < 0).reduce((sum, current) => sum + current, 0)
+    return [res1, res2];
+}
