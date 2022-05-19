@@ -27,3 +27,15 @@ function countPositivesSumNegatives(input) {
     const res2 =  input.filter(item => item < 0).reduce((sum, current) => sum + current, 0)
     return [res1, res2];
 }
+
+//75 Convert number to reversed array of digits
+function digitize(n) {
+    let initialArray = String(n).split('');
+    let reversedArray = [];
+    for (let i = initialArray.length - 1; i >= 0; i--) {
+        reversedArray[i] = Number(initialArray.shift());
+    }
+    return reversedArray;
+}
+
+console.log(digitize(348597));
