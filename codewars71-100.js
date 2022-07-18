@@ -67,3 +67,22 @@ function isDivisible(n, x, y) {
 function litres(time) {
  return Math.floor(time*0.5);
 }
+
+//79 Vowel Count
+function getCount(str) {
+  
+  var vowelsCount = 0;
+  var inputLetters = str.split("");
+  
+  const vowels = ["a","e","i","o","u"];
+  
+  vowels.forEach(function(vowel) {
+    inputLetters.forEach(function(inpLetter) {
+      if (inpLetter === vowel) {
+        vowelsCount++;
+      }
+    });
+  });
+  
+  return vowelsCount;
+}
