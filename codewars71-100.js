@@ -57,3 +57,8 @@ var humanYearsCatYearsDogYears = function(humanYears) {
 
     return [humanYears,catYears,dogYears];
 }
+
+//77 Is n divisible by x and y?
+function isDivisible(n, x, y) {
+    return (n%x == 0 && n%y ==0) ? true : false;
+   }
